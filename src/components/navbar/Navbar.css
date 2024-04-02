@@ -1,0 +1,105 @@
+.navbar__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar__top__links {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+
+.navbar__link {
+    text-decoration: none;
+    color: black;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: left;
+}
+
+.navbar__top__contact {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+.navbar__top__contact a,
+.login__link {
+    text-decoration: none;
+    font-family: Segoe UI;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22.5px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: left;
+    color: black;
+}
+
+.navbar__bottom__search {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__bottom__search input {
+    padding: 14px 16px;
+    border: 1px solid #64B496;
+    border-radius: 5px;
+    width: 600px;
+    outline: none;
+}
+
+
+select {
+    margin-left: -175px;
+    padding: 14px 16px;
+    border: none;
+    border-left: 1px solid #64B496;
+    outline: none;
+}
+
+#search__icon {
+    font-size: 20px;
+    color: white;
+}
+
+.navbar__bottom__search button {
+    width: 45px;
+    height: 45px;
+    margin-top: -1px;
+    border-radius: 5px;
+    background: #F53E32;
+    border: none;
+}
+
+
+
+
+.navbar__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__bottom__users {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.navbar__bottom__users div {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.login__link {
+    display: flex;
+}

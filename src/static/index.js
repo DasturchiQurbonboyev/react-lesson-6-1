@@ -1,0 +1,1 @@
+export let API_URL = "https://fakestoreapi.com/products/"

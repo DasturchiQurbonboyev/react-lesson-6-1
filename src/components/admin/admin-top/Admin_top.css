@@ -1,0 +1,72 @@
+.admin__top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: center;
+}
+
+.admin__top__left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.admin__top__left h1 {
+    font-family: Manrope;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: left;
+}
+
+.admin__top__left p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24.5px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: left;
+    color: #7A7A7A;
+}
+
+
+.admin__top__reight img {
+    width: 100%;
+}
+
+
+
+.admin__top__left__box {
+    padding: 25px 13px;
+    background: #E9E9E9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin__top__left__box__card h2 {
+    font-family: Manrope;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    color: #F53E32;
+}
+
+.admin__top__left__box__card h2 span {
+    font-family: Manrope;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    color: #7A7A7A;
+    margin-left: -15px;
+}
+
+.admin__top__left__box__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}

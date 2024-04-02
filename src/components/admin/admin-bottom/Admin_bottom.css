@@ -1,0 +1,35 @@
+.admin__bottom {
+    /* margin-top: 100px; */
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.admin__bottom__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #E9E9E9;
+    padding: 80px 25px 25px;
+}
+
+.admin__bottom__card h5 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30.01px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: center;
+}
+
+.admin__bottom__card p {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: center;
+    color: #7A7A7A;
+}

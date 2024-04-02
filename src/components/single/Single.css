@@ -1,0 +1,219 @@
+.single__product {
+    display: grid;
+    grid-template-columns: 2.5fr 7.5fr;
+}
+
+.single__product__reight__top {
+    display: flex;
+    gap: 12px;
+}
+
+.seeds__title {
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.seeds__title h4 {
+    font-family: Segoe UI;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: left;
+}
+
+.seeds__title p {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.5px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: left;
+    color: #7A7A7A;
+    margin: 17px 0 23px;
+}
+
+
+.seeds__reyting {
+    padding: 22px 0;
+    display: flex;
+    gap: 2px;
+}
+
+.seeds__brand {
+    display: flex;
+    gap: 10px;
+}
+
+.seeds__brand__left p {
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: left;
+}
+
+.seeds__brand__reight p {
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: left;
+    color: #777777;
+}
+
+
+.seeds__price {
+    padding: 38px 0 22px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.seeds__price h5 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.01px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: left;
+    color: #F53E32;
+}
+
+.seeds__price p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: left;
+    text-decoration: line-through;
+    color: #7A7A7A;
+}
+
+
+.seeds__size__top {
+    display: flex;
+    gap: 8px;
+    padding: 0 0 25px;
+}
+
+.seeds__size__top p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24.9px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: left;
+}
+
+.seeds__size__top button {
+    padding: 3px 10px;
+    border: 1px solid #E9E9E9;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: left;
+    color: #777777;
+    background: #FFFFFF;
+}
+
+.seeds__size__top button:hover {
+    background: #F53E32;
+    color: white;
+    border: 1px solid white;
+}
+
+
+.seeds__size__bottom {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn__size {
+    padding: 12px 18px;
+    font-family: Segoe UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.28px;
+    text-align: center;
+    border: 1px solid #E9E9E9;
+    background: white;
+    border-radius: 5px;
+}
+
+.btn__style {
+    background: #F53E32;
+    color: white;
+    border: none;
+}
+
+
+.seeds__size__plass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+}
+
+.seeds__size__plass button {
+    padding: 2px 4px;
+    border: 1px solid #E9E9E9;
+    background: white;
+    border-radius: 5px;
+}
+
+
+
+
+
+.single__product__reight__bottom {
+    margin-top: 40px;
+    padding: 25px;
+    border: 1px solid #E9E9E9;
+    border-radius: 5px;
+    background: white;
+}
+
+.single__product__reight__bottom__title {
+    display: flex;
+    gap: 30px;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.single__product__reight__bottom__title h5 {
+    font-family: Poppins;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 25.5px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.single__product__reight__bottom__title h5:hover {
+    color: #F53E32;
+}
+
+.single__product__reight__bottom__desc1 {
+    padding-top: 32px;
+}
+
+.single__product__reight__bottom__desc1 {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.5px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: left;
+    color: #7A7A7A;
+}
+
+.single__product__reight__bottom__title_2 {
+    padding: 25px 0;
+    border-bottom: 1px solid #E9E9E9;
+}

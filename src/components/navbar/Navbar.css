@@ -61,7 +61,8 @@ select {
     margin-left: -175px;
     padding: 14px 16px;
     border: none;
-    border-left: 1px solid #64B496;
+    border: 1px solid #64B496;
+    border-right: none;
     outline: none;
 }
 
